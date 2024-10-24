@@ -114,6 +114,7 @@ PHASE2AND3
  32. No valid move, and the food is above-right.
  33. No valid move, and the food is below-left.
  34. No valid move, and the food is below-right.
+ 
  Each state is thought so in each there is usually an optimal action to take. To make the
  program learn which action is the optimal in each state we computed the reward function.
 The function for getting the state, get_state(), in the different situations does not receive any
